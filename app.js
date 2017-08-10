@@ -37,7 +37,6 @@ app.get("/error", (req, res) => {
 });
 
 app.post('/', (req, res) => {
-    console.log(req.body);
     T.post('statuses/update', { status: req.body.userTweet }, function(err, data, response) {
         let avatar = data.user.profile_image_url;
         let name = data.user.name;
