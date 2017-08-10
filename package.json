@@ -1,0 +1,23 @@
+{
+  "name": "twitter-interface",
+  "version": "1.0.0",
+  "description": "An interface for your twitter profile",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "multer": "^1.3.0",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.2",
+    "reload": "^2.0.0",
+    "socket.io": "^2.0.3",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Curtis",
+  "license": "MIT"
+}
